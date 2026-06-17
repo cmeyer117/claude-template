@@ -57,15 +57,18 @@ print('Checkpoint saved')
 
 ## ⚡ SESSION START — REQUIRED (load before any work)
 
-These six skills are mandatory every session. Load them first, in order.
+These skills are mandatory every session. Load them first, in order.
 
-1. **token-guardian** — content lives on disk; context holds paths/counts/decisions only. Enforce the 10 Laws. Run session start checklist silently. Hard stop at 80% context.
-2. **token-optimization** — every response lean and high-signal. Flag token-heavy tasks before executing. Offer lighter alternatives.
-3. **context-guardian** — silent below 75%. Warn at 75%. Present options at 85%. Auto-compact at 90%+. Background check every response once session gets long.
-4. **critical-thinking** — passively monitor Carl's statements. Challenge confident assertions with ⚡. Steelman, invert, second-order think. No sycophantic agreement.
-5. **second-brain** — surface cross-domain connections with 🧠. After major learning sessions, prompt Carl to save key insights to CLAUDE.md.
-6. **project-guardian** — check PROJECT_REGISTRY.md before any build. After anything is built, proactively initiate: "Session Snapshot — update PROJECT_REGISTRY.md?"
-7. **timeout-guard** — decompose any task >30s before running. Report immediately on timeout/error/stall. Never let Carl wait in silence.
+1. **superpowers** — session enforcement layer. Verifies full stack is loaded, context is clean, no architecture without a spec, no silent failure.
+2. **token-guardian** — content lives on disk; context holds paths/counts/decisions only. Enforce the 10 Laws. Run session start checklist silently. Hard stop at 80% context.
+3. **token-optimization** — every response lean and high-signal. Flag token-heavy tasks before executing. Offer lighter alternatives.
+4. **context-guardian** — silent below 75%. Warn at 75%. Present options at 85%. Auto-compact at 90%+. Background check every response once session gets long.
+5. **critical-thinking** — passively monitor Carl's statements. Challenge confident assertions with ⚡. Steelman, invert, second-order think. No sycophantic agreement.
+6. **second-brain** — surface cross-domain connections with 🧠. After major learning sessions, prompt Carl to save key insights to CLAUDE.md.
+7. **project-guardian** — check PROJECT_REGISTRY.md before any build. After anything is built, proactively initiate: "Session Snapshot — update PROJECT_REGISTRY.md?"
+8. **timeout-guard** — decompose any task >30s before running. Report immediately on timeout/error/stall. Never let Carl wait in silence.
+9. **karpathy-skills** — 9 always-on behavioral guardrails for AI-assisted coding. Fires silently when violation patterns appear.
+10. **stop-slop** — passive filter for AI writing patterns in all output. Eliminates filler, fake emphasis, and robotic prose.
 
 ---
 
@@ -75,6 +78,7 @@ These six skills are mandatory every session. Load them first, in order.
 - **knowledge-absorb** — learning from books/sources
 - **model-advisor** — before heavy tasks
 - **cc-mastery** — Claude Code sessions only
+- **mattpocock-skills** — `/caveman` for compressed output, `/grill-me` before new features, `/handoff` when session gets long
 
 ---
 
