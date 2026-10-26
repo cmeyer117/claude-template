@@ -157,7 +157,7 @@ AI workflows are triggered by events (document upload, scheduled job, etc.) and 
 
 **DEPLOYED INFRASTRUCTURE — read this before touching anything:**
 - Frontend: React 18 + Vite + Tailwind, deployed on **Vercel**, code at `jarvis/ui/`
-- Backend: Express + TypeScript, deployed on **Railway** at `https://claude-workspace-production-8460.up.railway.app`
+- Backend: Express + TypeScript, was deployed on **Railway** at `claude-workspace-production-8460.up.railway.app` — **that project was deleted 2026-10-24; Vision (`https://vision-backend-carlmeyer.up.railway.app`) is the live backend and vendors `jarvis/src`.** This section stays as historical template reference only.
 - `jarvis/ui/vercel.json` rewrites `/chat` and `/journal/*` to Railway — this is how the frontend talks to the backend without exposing env vars
 - Auth gate: `AuthGate.tsx`, passphrase via `VITE_PASSPHRASE` env var (default: `'jarvis'`), stored in sessionStorage
 
